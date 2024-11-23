@@ -1,10 +1,9 @@
 // Liste von Songtext-Ausschnitten
 const lyrics = [
-    "I want it that way",
-    "Hit me baby one more time",
-    "Hello from the other side",
-    "We will rock you",
-    "Cause you're amazing, just the way you are"
+    "The stars gonna fall every night",
+    "I see the stranger look in your eyes",
+    "I know that weve only just met",
+    "But i dont wanna see you go"
 ];
 
 const lyricsElement = document.getElementById("lyrics");
@@ -19,3 +18,7 @@ function updateLyrics() {
 
 // Initialisiere den Textwechsel
 setInterval(updateLyrics, 1500);
+
+setTimeout(() => {
+    window.location.href = "https://moritzgauss.com"; // Zielseite hier einfügen
+  }, 8500);
